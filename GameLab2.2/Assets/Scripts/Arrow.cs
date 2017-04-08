@@ -13,7 +13,7 @@ public class Arrow : MonoBehaviour {
 	private bool released;
 
 	void Start () {
-		
+
 	}
 	
 	// Update is called once per frame
@@ -56,6 +56,8 @@ public class Arrow : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision)
 	{
-		Destroy (gameObject);
+		Destroy (gameObject.GetComponent<Rigidbody>());
+		transform.parent = null;
+		Destroy(gameObject.GetComponent<Arrow>());
 	}
 }

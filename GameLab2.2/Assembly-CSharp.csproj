@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Arrow.cs" />
+     <Compile Include="Assets\Scripts\Bow.cs" />
+     <Compile Include="Assets\Scripts\test.cs" />
      <Compile Include="Assets\Unity_Pakages\Bird Flocks\Scripts\Addons\UnluckDistanceDisabler.cs" />
      <Compile Include="Assets\Unity_Pakages\Bird Flocks\Scripts\Demo\SmoothCameraOrbit.cs" />
      <Compile Include="Assets\Unity_Pakages\MapMagic\Demo\Scripts\CameraController.cs" />
