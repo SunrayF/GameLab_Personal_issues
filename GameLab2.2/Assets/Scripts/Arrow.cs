@@ -5,15 +5,23 @@ using UnityEngine;
 public class Arrow : MonoBehaviour {
 
 	public GameObject arrow;
+	public float maxDrawTime;
+	private float drawTimer;
 	public GameObject bow;
 	public float speed;
 	public float speedAdd;
+	public Camera cam;
+	public float adsFOV;
 	private float timer;
+	private float zoomTimer;
+	public float zoomTime;
 	public float upgradePowerSpeed;
-	private bool released;
+	private bool released = true;
+	private float cameraFov;
 
 	void Start () {
-
+		cam = Camera.main;
+		cameraFov = Camera.main.fieldOfView;
 	}
 	
 	// Update is called once per frame
@@ -31,6 +39,7 @@ public class Arrow : MonoBehaviour {
 			arrow.transform.position = transform.position + Camera.main.transform.forward * 2;
 			Rigidbody rb = arrow.GetComponent<Rigidbody>();
 			rb.velocity = Camera.main.transform.forward * speed;
+			cam.fieldOfView = cameraFov;
 		}
 
 	}
@@ -45,12 +54,19 @@ public class Arrow : MonoBehaviour {
 	void DrawingBow(){
 
 		if (Input.GetMouseButton (0)) {
-			timer += Time.deltaTime;
-			if (timer > upgradePowerSpeed) {
-				speed += speedAdd;
-				timer = 0;
+			drawTimer += Time.deltaTime;
+			if(drawTimer < maxDrawTime){
+				timer += Time.deltaTime;
+				zoomTimer += Time.deltaTime;
+				if (zoomTimer > zoomTime) {
+					cam.fieldOfView -= adsFOV;
+					zoomTimer = 0;
+				}
+				if (timer > upgradePowerSpeed) {
+					speed += speedAdd;
+					timer = 0;
+				}
 			}
-			print (speed);
 		}
 	}
 

@@ -18,9 +18,7 @@ public class Bow : MonoBehaviour {
 	}
 
 	void Reload(){
-		print (transform.childCount);
 		if (transform.childCount > 1) {
-			print ("loaded");
 			timer = 0;
 		}
 		else{
