@@ -1,0 +1,291 @@
+
+{
+  "name" : "Assorted Leaves",
+  "tags" : [
+    "Leaf",
+    "Green",
+    "Hedera helix gold child",
+    "Money plant",
+    "Nandina",
+    "Nandina domestica",
+    "Combretum indicum",
+    "Jasminum sambac",
+    "motia",
+    "Hedera canariensis",
+    "variegata",
+    "canary islands ivy",
+    "Epipremnum",
+    "Denticulate",
+    "Rhomboid",
+    "Parallel",
+    "Entire",
+    "Even_Pinnate",
+    "Pinnate"
+  ],
+  "previews" : {
+    "images" : [
+    ],
+    "relativeSize" : "1x1"
+  },
+  "environment" : {
+    "biome" : "mediterranean-forest",
+    "region" : "2"
+  },
+  "meta"        : [
+    {
+      "value" : "1x1 m",
+      "name"  : "Scan Area",
+      "key"   : "scanArea"
+    },
+    {
+      "value" : "0.009 m",
+      "name"  : "Height",
+      "key"   : "height"
+    },
+    {
+      "value" : false,
+      "name"  : "Tileable",
+      "key"   : "tileable"
+    },
+    {
+      "value" : "4096 px/m",
+      "name"  : "Texel Density",
+      "key"   : "texelDensity"
+    },
+    {
+      "value" : "X-Rite ColorChecker Classic",
+      "name"  : "Calibration",
+      "key"   : "calibration"
+    },
+    {
+      "value" : "MKI",
+      "name"  : "Scanner",
+      "key"   : "scanner"
+    }
+  ],
+  "averageColor" : "#808080",
+  "components"   : [
+    {
+      "minIntensity" : 76,
+      "name"         : "Albedo",
+      "colorSpace"   : "sRGB",
+      "maxIntensity" : 159,
+      "type"         : "albedo",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojfnk_4K_Albedo.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#738225"
+    },
+    {
+      "minIntensity" : 123,
+      "name"         : "Displacement",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 168,
+      "type"         : "displacement",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojfnk_4K_Displacement.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#909090"
+    },
+    {
+      "minIntensity" : 119,
+      "name"         : "Bump",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 137,
+      "type"         : "bump",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojfnk_4K_Bump.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#818181"
+    },
+    {
+      "minIntensity" : 57,
+      "name"         : "Gloss",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 121,
+      "type"         : "gloss",
+      "uris"         : [
+        {
+          "resolutions" : [
+          ]
+        }
+      ],
+      "averageColor" : "#4D4D4D"
+    },
+    {
+      "minIntensity" : 132,
+      "name"         : "Normal",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 161,
+      "type"         : "normal",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojfnk_4K_Normal.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#8082FC"
+    },
+    {
+      "minIntensity" : 136,
+      "name"         : "Roughness",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 195,
+      "type"         : "roughness",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojfnk_4K_Roughness.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#B2B2B2"
+    },
+    {
+      "minIntensity" : 52,
+      "name"         : "Specular",
+      "colorSpace"   : "sRGB",
+      "maxIntensity" : 54,
+      "type"         : "specular",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojfnk_4K_Specular.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#353535"
+    },
+    {
+      "minIntensity" : 89,
+      "name"         : "Translucency",
+      "colorSpace"   : "sRGB",
+      "maxIntensity" : 180,
+      "type"         : "translucency",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojfnk_4K_Translucency.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#9F9515"
+    },
+    {
+      "minIntensity" : 0,
+      "name"         : "Opacity",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 255,
+      "type"         : "opacity",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojfnk_4K_Opacity.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#303030"
+    }
+  ],
+  "id"           : "ojfnk2",
+  "properties"   : [
+  ],
+  "categories"   : [
+    "atlas",
+    "plant",
+    "assorted"
+  ],
+  "points"       : 1,
+  "references"   : [
+    "https://en.wikipedia.org/wiki/Money_plant",
+    "https://en.wikipedia.org/wiki/Nandina",
+    "https://en.wikipedia.org/wiki/Combretum_indicum",
+    "https://en.wikipedia.org/wiki/Jasminum_sambac",
+    "https://en.wikipedia.org/wiki/Hedera_canariensis"
+  ]
+}

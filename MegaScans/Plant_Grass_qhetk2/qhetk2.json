@@ -1,0 +1,268 @@
+
+{
+  "id" : "qhetk2",
+  "categories" : [
+    "atlas",
+    "plant",
+    "grass"
+  ],
+  "name"       : "qhetk2",
+  "tags"       : [
+    "nordic"
+  ],
+  "environment" : {
+    "region" : "Scandinavia",
+    "biome"  : "mediterranean-forest"
+  },
+  "averageColor" : "#808080",
+  "previews"     : {
+    "images" : [
+    ],
+    "relativeSize" : "1x1"
+  },
+  "properties"   : [
+  ],
+  "meta"         : [
+    {
+      "name" : "Scan Area",
+      "key"  : "scanArea",
+      "value" : "0.37x0.37 m"
+    },
+    {
+      "name" : "Height",
+      "key"  : "height",
+      "value" : "0.006 m"
+    },
+    {
+      "name" : "Tileable",
+      "key"  : "tileable",
+      "value" : false
+    },
+    {
+      "name" : "Texel Density",
+      "key"  : "texelDensity",
+      "value" : "11083 px/m"
+    },
+    {
+      "name" : "Calibration",
+      "key"  : "calibration",
+      "value" : "X-Rite ColorChecker Classic"
+    },
+    {
+      "name" : "Scanner",
+      "key"  : "scanner",
+      "value" : "SEM-MKII 4-3"
+    }
+  ],
+  "components"   : [
+    {
+      "type" : "albedo",
+      "name" : "Albedo",
+      "minIntensity" : 35,
+      "maxIntensity" : 134,
+      "averageColor" : "#5E5B3E",
+      "colorSpace"   : "sRGB",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "qhetk_4K_Albedo.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "displacement",
+      "name" : "Displacement",
+      "minIntensity" : 116,
+      "maxIntensity" : 147,
+      "averageColor" : "#838383",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "qhetk_4K_Displacement.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "bump",
+      "name" : "Bump",
+      "minIntensity" : 121,
+      "maxIntensity" : 143,
+      "averageColor" : "#828282",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "qhetk_4K_Bump.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "gloss",
+      "name" : "Gloss",
+      "minIntensity" : 36,
+      "maxIntensity" : 95,
+      "averageColor" : "#373737",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "normal",
+      "name" : "Normal",
+      "minIntensity" : 126,
+      "maxIntensity" : 157,
+      "averageColor" : "#8080FD",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "qhetk_4K_Normal.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "roughness",
+      "name" : "Roughness",
+      "minIntensity" : 160,
+      "maxIntensity" : 215,
+      "averageColor" : "#C6C6C6",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "qhetk_4K_Roughness.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "specular",
+      "name" : "Specular",
+      "minIntensity" : 53,
+      "maxIntensity" : 53,
+      "averageColor" : "#353535",
+      "colorSpace"   : "sRGB",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "qhetk_4K_Specular.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "translucency",
+      "name" : "Translucency",
+      "minIntensity" : 10,
+      "maxIntensity" : 105,
+      "averageColor" : "#423E38",
+      "colorSpace"   : "sRGB",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "qhetk_4K_Translucency.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "opacity",
+      "name" : "Opacity",
+      "minIntensity" : 0,
+      "maxIntensity" : 255,
+      "averageColor" : "#303030",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "qhetk_4K_Opacity.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "points"       : 1,
+  "references"   : [
+  ]
+}

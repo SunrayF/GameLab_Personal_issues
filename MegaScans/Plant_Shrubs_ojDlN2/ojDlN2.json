@@ -1,0 +1,270 @@
+
+{
+  "id" : "ojDlN2",
+  "categories" : [
+    "atlas",
+    "plant",
+    "shrubs"
+  ],
+  "name"       : "Brown Twigs",
+  "tags"       : [
+    "Mountain Slope",
+    "Sticks",
+    "twigs"
+  ],
+  "environment" : {
+    "region" : "Oceania",
+    "biome"  : "temperate-forest"
+  },
+  "averageColor" : "#808080",
+  "previews"     : {
+    "images" : [
+    ],
+    "relativeSize" : "1x1"
+  },
+  "properties"   : [
+  ],
+  "meta"         : [
+    {
+      "name" : "Scan Area",
+      "key"  : "scanArea",
+      "value" : "0.41x0.41 m"
+    },
+    {
+      "name" : "Height",
+      "key"  : "height",
+      "value" : "0.005 m"
+    },
+    {
+      "name" : "Tileable",
+      "key"  : "tileable",
+      "value" : false
+    },
+    {
+      "name" : "Texel Density",
+      "key"  : "texelDensity",
+      "value" : "9917 px/m"
+    },
+    {
+      "name" : "Calibration",
+      "key"  : "calibration",
+      "value" : "X-Rite ColorChecker Classic"
+    },
+    {
+      "name" : "Scanner",
+      "key"  : "scanner",
+      "value" : "AUM-MKII"
+    }
+  ],
+  "components"   : [
+    {
+      "type" : "albedo",
+      "name" : "Albedo",
+      "minIntensity" : 50,
+      "maxIntensity" : 118,
+      "averageColor" : "#594D41",
+      "colorSpace"   : "sRGB",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojDlN_4K_Albedo.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "displacement",
+      "name" : "Displacement",
+      "minIntensity" : 131,
+      "maxIntensity" : 159,
+      "averageColor" : "#909090",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojDlN_4K_Displacement.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "bump",
+      "name" : "Bump",
+      "minIntensity" : 124,
+      "maxIntensity" : 133,
+      "averageColor" : "#818181",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojDlN_4K_Bump.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "gloss",
+      "name" : "Gloss",
+      "minIntensity" : 0,
+      "maxIntensity" : 4,
+      "averageColor" : "#0F0F0F",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "normal",
+      "name" : "Normal",
+      "minIntensity" : 135,
+      "maxIntensity" : 148,
+      "averageColor" : "#7F7FFC",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojDlN_4K_Normal.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "roughness",
+      "name" : "Roughness",
+      "minIntensity" : 251,
+      "maxIntensity" : 255,
+      "averageColor" : "#F0F0F0",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojDlN_4K_Roughness.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "specular",
+      "name" : "Specular",
+      "minIntensity" : 52,
+      "maxIntensity" : 53,
+      "averageColor" : "#353535",
+      "colorSpace"   : "sRGB",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojDlN_4K_Specular.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "translucency",
+      "name" : "Translucency",
+      "minIntensity" : 110,
+      "maxIntensity" : 164,
+      "averageColor" : "#8D848B",
+      "colorSpace"   : "sRGB",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojDlN_4K_Translucency.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type" : "opacity",
+      "name" : "Opacity",
+      "minIntensity" : 0,
+      "maxIntensity" : 255,
+      "averageColor" : "#0A0A0A",
+      "colorSpace"   : "Linear",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "ojDlN_4K_Opacity.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "points"       : 1,
+  "references"   : [
+  ]
+}

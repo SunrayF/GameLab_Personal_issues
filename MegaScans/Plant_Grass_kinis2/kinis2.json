@@ -1,0 +1,271 @@
+
+{
+  "name" : "Assorted Grass",
+  "tags" : [
+    "Green",
+    "tussock",
+    "tuft"
+  ],
+  "previews" : {
+    "images" : [
+    ],
+    "relativeSize" : "1x1"
+  },
+  "environment" : {
+    "biome" : "mediterranean-forest",
+    "region" : "2"
+  },
+  "meta"        : [
+    {
+      "value" : "0.96x0.96 m",
+      "name"  : "Scan Area",
+      "key"   : "scanArea"
+    },
+    {
+      "value" : "0.006 m",
+      "name"  : "Height",
+      "key"   : "height"
+    },
+    {
+      "value" : false,
+      "name"  : "Tileable",
+      "key"   : "tileable"
+    },
+    {
+      "value" : "4264 px/m",
+      "name"  : "Texel Density",
+      "key"   : "texelDensity"
+    },
+    {
+      "value" : "X-Rite ColorChecker Classic",
+      "name"  : "Calibration",
+      "key"   : "calibration"
+    },
+    {
+      "value" : "MKI",
+      "name"  : "Scanner",
+      "key"   : "scanner"
+    }
+  ],
+  "averageColor" : "#808080",
+  "components"   : [
+    {
+      "minIntensity" : 52,
+      "name"         : "Albedo",
+      "colorSpace"   : "sRGB",
+      "maxIntensity" : 88,
+      "type"         : "albedo",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "kinis_4K_Albedo.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#454B2B"
+    },
+    {
+      "minIntensity" : 118,
+      "name"         : "Displacement",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 148,
+      "type"         : "displacement",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "kinis_4K_Displacement.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#868686"
+    },
+    {
+      "minIntensity" : 120,
+      "name"         : "Bump",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 137,
+      "type"         : "bump",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "kinis_4K_Bump.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#818181"
+    },
+    {
+      "minIntensity" : 55,
+      "name"         : "Gloss",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 103,
+      "type"         : "gloss",
+      "uris"         : [
+        {
+          "resolutions" : [
+          ]
+        }
+      ],
+      "averageColor" : "#434343"
+    },
+    {
+      "minIntensity" : 127,
+      "name"         : "Normal",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 154,
+      "type"         : "normal",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "kinis_4K_Normal.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#7E80FD"
+    },
+    {
+      "minIntensity" : 153,
+      "name"         : "Roughness",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 198,
+      "type"         : "roughness",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "kinis_4K_Roughness.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#BCBCBC"
+    },
+    {
+      "minIntensity" : 52,
+      "name"         : "Specular",
+      "colorSpace"   : "sRGB",
+      "maxIntensity" : 54,
+      "type"         : "specular",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "kinis_4K_Specular.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#353535"
+    },
+    {
+      "minIntensity" : 100,
+      "name"         : "Translucency",
+      "colorSpace"   : "sRGB",
+      "maxIntensity" : 196,
+      "type"         : "translucency",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "kinis_4K_Translucency.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#9B9257"
+    },
+    {
+      "minIntensity" : 0,
+      "name"         : "Opacity",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 255,
+      "type"         : "opacity",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "kinis_4K_Opacity.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#232323"
+    }
+  ],
+  "id"           : "kinis2",
+  "properties"   : [
+  ],
+  "categories"   : [
+    "atlas",
+    "plant",
+    "grass"
+  ],
+  "points"       : 1,
+  "references"   : [
+    "https://en.wikipedia.org/wiki/Spinach"
+  ]
+}

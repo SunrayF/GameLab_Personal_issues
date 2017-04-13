@@ -1,0 +1,279 @@
+
+{
+  "name" : "Assorted Flowers",
+  "tags" : [
+    "Flower",
+    "Yellow",
+    "Orange",
+    "Pink",
+    "sunflower",
+    "tagetes",
+    "marigold",
+    "Helianthus",
+    "petunia",
+    "dianthus"
+  ],
+  "previews" : {
+    "images" : [
+    ],
+    "relativeSize" : "1x1"
+  },
+  "environment" : {
+    "biome" : "mediterranean-forest",
+    "region" : "2"
+  },
+  "meta"        : [
+    {
+      "value" : "0.5x0.5 m",
+      "name"  : "Scan Area",
+      "key"   : "scanArea"
+    },
+    {
+      "value" : "0.011 m",
+      "name"  : "Height",
+      "key"   : "height"
+    },
+    {
+      "value" : false,
+      "name"  : "Tileable",
+      "key"   : "tileable"
+    },
+    {
+      "value" : "8192 px/m",
+      "name"  : "Texel Density",
+      "key"   : "texelDensity"
+    },
+    {
+      "value" : "X-Rite ColorChecker Classic",
+      "name"  : "Calibration",
+      "key"   : "calibration"
+    },
+    {
+      "value" : "MKI",
+      "name"  : "Scanner",
+      "key"   : "scanner"
+    }
+  ],
+  "averageColor" : "#808080",
+  "components"   : [
+    {
+      "minIntensity" : 100,
+      "name"         : "Albedo",
+      "colorSpace"   : "sRGB",
+      "maxIntensity" : 223,
+      "type"         : "albedo",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "pepiQ_4K_Albedo.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#D0A442"
+    },
+    {
+      "minIntensity" : 112,
+      "name"         : "Displacement",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 167,
+      "type"         : "displacement",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "pepiQ_4K_Displacement.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#8A8A8A"
+    },
+    {
+      "minIntensity" : 119,
+      "name"         : "Bump",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 138,
+      "type"         : "bump",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "pepiQ_4K_Bump.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#818181"
+    },
+    {
+      "minIntensity" : 55,
+      "name"         : "Gloss",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 66,
+      "type"         : "gloss",
+      "uris"         : [
+        {
+          "resolutions" : [
+          ]
+        }
+      ],
+      "averageColor" : "#434343"
+    },
+    {
+      "minIntensity" : 135,
+      "name"         : "Normal",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 150,
+      "type"         : "normal",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "pepiQ_4K_Normal.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#7F7FFA"
+    },
+    {
+      "minIntensity" : 189,
+      "name"         : "Roughness",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 198,
+      "type"         : "roughness",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "pepiQ_4K_Roughness.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#BCBCBC"
+    },
+    {
+      "minIntensity" : 52,
+      "name"         : "Specular",
+      "colorSpace"   : "sRGB",
+      "maxIntensity" : 54,
+      "type"         : "specular",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "pepiQ_4K_Specular.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#353535"
+    },
+    {
+      "minIntensity" : 131,
+      "name"         : "Translucency",
+      "colorSpace"   : "sRGB",
+      "maxIntensity" : 251,
+      "type"         : "translucency",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "pepiQ_4K_Translucency.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#EAAD46"
+    },
+    {
+      "minIntensity" : 0,
+      "name"         : "Opacity",
+      "colorSpace"   : "Linear",
+      "maxIntensity" : 255,
+      "type"         : "opacity",
+      "uris"         : [
+        {
+          "resolutions" : [
+            {
+              "resolution" : "4096x4096",
+              "formats"    : [
+                {
+                  "mimeType" : "image/jpeg",
+                  "bitDepth" : 8,
+                  "uri"      : "pepiQ_4K_Opacity.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "averageColor" : "#303030"
+    }
+  ],
+  "id"           : "pepiQ2",
+  "properties"   : [
+  ],
+  "categories"   : [
+    "atlas",
+    "plant",
+    "assorted"
+  ],
+  "points"       : 1,
+  "references"   : [
+    "https://en.wikipedia.org/wiki/Tagetes",
+    "https://en.wikipedia.org/wiki/Helianthus"
+  ]
+}
